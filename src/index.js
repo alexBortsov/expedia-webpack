@@ -1,4 +1,5 @@
 import './styles/index.scss';
+//import $ from "jquery";
 
 const userStack = {
    language: 'JavaScript',
