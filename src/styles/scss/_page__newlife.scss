@@ -6,7 +6,7 @@
     margin: 0px 0px 30px 0px;
  }
  .header-block_title {
-    font-family: inherit;
+   font-family: inherit;
     font-weight: 700;
     font-size: 48px;
     line-height: calc(65.37 / 48 * 100%);
@@ -15,7 +15,8 @@
     margin: 0px 0px 10px 0px;
  }
  .header-block__text {
-    font-weight: 400;
+   font-family: openSansHebrewCondensed; 
+   font-weight: 400;
     font-size: 16px;
     line-height: calc(19.2 / 16 * 100%);
  }
@@ -29,6 +30,8 @@
        font-size: 30px;
     }
  }
+
+
 .newlife__body {
    padding: 0px 15px;
    display: flex;
@@ -36,7 +39,9 @@
    justify-content: space-evenly;
    align-items: center;
    flex-wrap: wrap;
+   font-family: inherit;
 }
+
 .newlife__item {
    flex: 0 1 33.333%;
    display: flex;
@@ -58,7 +63,8 @@
 .newlife__star_link {
    display: flex;
    align-items: center;
-   justify-content: center;  
+   justify-content: center;
+   
 }
 .newlife__front{
    background: linear-gradient(90deg, #00C7DC 6.25%, rgba(22, 220, 240, 0.46) 100%);
@@ -80,12 +86,14 @@
    transition: all 3s ease 0s;  
 }
 .newlife__title {
+   font-family: inherit;
    font-weight: 700;
    font-size: 24px;
    line-height: 136%;
    color: #fff;
 }
 .newlife__text {
+   font-family: inherit;
    font-size: 16px;
    line-height: 120%;
    color: #fff;
@@ -95,7 +103,8 @@
    padding: 5px 5px 5px 0px;
 }
 .newlife__button_link{
- color: #fff;
+   font-family: openSansHebrewCondensed;
+   color: #fff;
  font-weight: 700;
  line-height: 136%;
 }
@@ -111,4 +120,5 @@
    top: 0;
    left: 0;
    object-fit: cover;
+
 }

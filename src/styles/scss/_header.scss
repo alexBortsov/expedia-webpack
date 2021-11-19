@@ -4,7 +4,6 @@
     top: 0;
     left: 0;
     z-index: 2;
-    font-style: inherit;
  }
  .header__container {
     display: flex;
@@ -65,10 +64,10 @@
  }
  .menu__link {
     color: #fff;
+    font-family: openSansHebrewCondensed;
     font-size: 16px;
     font-weight: 700;
     padding-bottom: 5px;
-    font-family: openSansHebrewCondensed;
  }
  .menu__link:hover{
     border-bottom: 2px solid white;
@@ -76,12 +75,12 @@
     color: #fff;
     outline: none;
     z-index: 8;
-
  }
  .header__search{
    flex: 0 1 25%;
   display: flex;
    align-items: center;
+   justify-content: flex-end;
 }
  .header__search form{
    display: flex;

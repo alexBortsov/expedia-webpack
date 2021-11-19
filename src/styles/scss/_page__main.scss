@@ -27,14 +27,14 @@
    font-weight: 700;
    font-size: 165px;
    line-height: calc(224.7 / 165 * 100%);
-   font-family: inherit;
+   font-family:inherit;
 }
 .main-block__subtitle {
    color: #fff;
    font-weight: 700;
    font-size: 24px;
    line-height: calc(32.68 / 24 * 100%);
-   font-family: inherit;
+   font-family:inherit;
 }
 .main-block__button {
    border-radius: 37px;
@@ -60,6 +60,7 @@
    line-height: 200%; 
    background: #16DCF0;
    font-family: openSans;
+   color: #fff;
 }
 .main-block__button_link:hover{
    background: -webkit-linear-gradient(45deg, rgb(22, 220, 240), rgb(28, 201, 56));
