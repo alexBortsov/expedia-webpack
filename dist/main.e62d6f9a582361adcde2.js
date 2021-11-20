@@ -1,1 +1,0 @@
-(()=>{"use strict";console.log({name:"Alex",age:"43",language:"JavaScript",framework:"Angular"})})();
